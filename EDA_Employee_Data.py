@@ -6,13 +6,12 @@ selected_page = st.sidebar.radio("Navigate", ["Introduction", "Categorical Featu
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import os
+
 
 # Read the CSV file
 csv_file_path = r'Uncleaned_employees_final_dataset (1).csv'
 df = pd.read_csv(csv_file_path)
 
-image_path = os.path.join(os.path.dirname(__file__), 'Employee_data.PNG')
 st.image(image_path)
 # Replace values in the 'gender' column
 df['gender'] = df['gender'].replace(['m', 'f'], ['Male', 'Female'])
