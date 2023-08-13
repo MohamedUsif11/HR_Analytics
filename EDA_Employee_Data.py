@@ -8,7 +8,7 @@ import numpy as np
 import plotly.express as px
 
 # Read the CSV file
-csv_file_path = r'C:\Users\workstation\OneDrive\Epilson Data Science Diploma\Notebook\EDA\EDA Mid Project\Uncleaned_employees_final_dataset (1).csv'
+csv_file_path = r'Uncleaned_employees_final_dataset (1).csv'
 df = pd.read_csv(csv_file_path)
 
 st.image('Employee_data.PNG')
