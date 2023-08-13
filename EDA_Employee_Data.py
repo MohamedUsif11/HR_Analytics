@@ -6,6 +6,7 @@ selected_page = st.sidebar.radio("Navigate", ["Introduction", "Categorical Featu
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import os
 
 # Read the CSV file
 csv_file_path = r'Uncleaned_employees_final_dataset (1).csv'
