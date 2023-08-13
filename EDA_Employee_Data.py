@@ -5,9 +5,7 @@ selected_page = st.sidebar.radio("Navigate", ["Introduction", "Categorical Featu
 #import the requried libraries
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import plotly.express as px
-import matplotlib.pyplot as plt
 
 # Read the CSV file
 csv_file_path = r'C:\Users\workstation\OneDrive\Epilson Data Science Diploma\Notebook\EDA\EDA Mid Project\Uncleaned_employees_final_dataset (1).csv'
