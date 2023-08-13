@@ -19,7 +19,7 @@ df['gender'] = df['gender'].replace(['m', 'f'], ['Male', 'Female'])
 if selected_page == 'Introduction':
 
 
-    st.title(':blue[EDA] for _Employee Data_')
+    st.title('**EDA** for _Employee Data_')
     st.write('Data source: [Kaggle](https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics)', unsafe_allow_html=False)
 
     # Create two columns for layout
