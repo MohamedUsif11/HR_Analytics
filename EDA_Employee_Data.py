@@ -12,7 +12,7 @@ import plotly.express as px
 csv_file_path = r'Uncleaned_employees_final_dataset (1).csv'
 df = pd.read_csv(csv_file_path)
 
-st.image(image_path)
+st.image('images.jpg')
 # Replace values in the 'gender' column
 df['gender'] = df['gender'].replace(['m', 'f'], ['Male', 'Female'])
 
